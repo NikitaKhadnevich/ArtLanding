@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+  .main__portfolio {
+    height: 100%;
+  }
+
+  .portfolio {
+    margin: 0 40px;
+    height: 100%;
+    margin-top: 58px;
+    margin-bottom: 66px;
+  }
+
+  .portfolio-items__works {
+    height: 100%;
+    margin-top: 12px;
+  }
+
+  .works {
+    display: flex;
+    margin: left;
+    width: 100%;
+  }
+
+  .current-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 26px;
+  }
+
+  .images-data {
+    max-width: 217px;
+    max-height: 184px;
+  }
+
+  .images-data > img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}

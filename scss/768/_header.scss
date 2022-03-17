@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px) {
+  .header {
+    height: 100%;
+  }
+
+  .header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 89px;
+  }
+
+  .list-data {
+    margin-top: 42px;
+    display: flex;
+  }
+
+  .list-data__nav-point {
+    margin-bottom: 3px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header__logo {
+    margin: 20px 0;
+  }
+  .header__wrapper {
+    justify-content: center;
+  }
+
+  .header__list {
+    margin: 10px 0;
+  }
+
+  .list-data {
+    width: 100%;
+  }
+}

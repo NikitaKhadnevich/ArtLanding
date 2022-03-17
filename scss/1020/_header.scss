@@ -1,0 +1,97 @@
+// ! Various!!//
+$header-color: #2d303a;
+$header-border: 6px #323746 solid;
+$starAbdHover-color: #f06c64;
+$slider-border: 6px #ea676b solid;
+$font-color: #ffffff;
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  background-color: $header-color;
+  height: 89px;
+  border-bottom: $header-border;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__wrapper {
+  width: 100%;
+  margin: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.burgerMenu,
+.wrapper__burger {
+  display: none;
+}
+
+.header__logo {
+  width: 124px;
+  height: 25px;
+  margin-top: 32px;
+  position: relative;
+  display: flex;
+}
+
+.header__logo > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: $font-color;
+  font-family: Lato;
+  font-weight: bold; //! bold не подходит под макет//
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: -0.55px; //! что есть 3%//
+}
+
+.header__logo > a::after {
+  content: "*";
+  color: $starAbdHover-color;
+  font-family: "Lato";
+  font-weight: bold;
+}
+
+.header__list {
+  display: flex;
+  width: 375px;
+  height: 14px;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.list-data {
+  margin-top: 44px;
+  display: flex;
+}
+
+.list-data > * {
+  font-family: "Lato";
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $font-color;
+  font-size: 12px;
+}
+
+.list-data__nav-link {
+  letter-spacing: -0.5px;
+  transition: 0.3s;
+}
+
+.list-data__nav-link:hover {
+  color: $starAbdHover-color;
+  transition: 0.3s;
+}
+
+.list-data__nav-point {
+  margin-bottom: 3px;
+
+  height: 14px;
+  align-self: flex-end;
+}

@@ -1,0 +1,50 @@
+.main__slider {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: $starAbdHover-color;
+  border-bottom: $slider-border;
+}
+
+.slider-item {
+  width: 100%;
+  min-height: 594px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px;
+}
+
+.slider-item__arrow-left,
+.slider-item__arrow-right {
+  align-self: center;
+}
+
+.slider-item__arrow-left > img,
+.slider-item__arrow-right > img {
+  cursor: pointer;
+}
+
+.slider-item__slide {
+  display: flex;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.slider-item__slide > img {
+  align-self: center;
+  max-width: 100%;
+  margin: auto;
+  padding-bottom: 5px;
+  animation: appearance-key 1s ease-in;
+}
+
+@keyframes appearance-key {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}

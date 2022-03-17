@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px) {
+  .services {
+    margin-top: 38px;
+    margin-bottom: 36px;
+  }
+
+  .services-items__advantage {
+    margin-top: 35px;
+    width: 100%;
+  }
+
+  .advBlock {
+    margin-top: 0px;
+    width: 100%;
+    min-height: 104px;
+    justify-content: flex-start;
+    grid-gap: 0;
+    margin-bottom: 20px;
+  }
+
+  .advBlock__info {
+    max-width: 220px;
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .text__advHeader {
+    width: 100%;
+    letter-spacing: 0.1px;
+  }
+
+  .text__advAbout {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .advBlock__info {
+    max-width: 100%;
+  }
+}

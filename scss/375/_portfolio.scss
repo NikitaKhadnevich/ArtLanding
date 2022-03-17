@@ -1,0 +1,42 @@
+@media screen and (max-width: 375px) {
+  .main__portfolio {
+    min-height: 844px;
+    border-bottom: 0;
+  }
+
+  .portfolio {
+    margin: 0 30px;
+    height: 100%;
+    margin-top: 45px;
+    margin-bottom: 35px;
+  }
+
+  .portfolio-items__works {
+    height: 100%;
+    margin-top: 12px;
+  }
+
+  .sort {
+    margin-top: 3px;
+  }
+
+  .current-images {
+    display: grid;
+    align-content: start;
+    grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+    margin-top: 24px;
+    grid-gap: 14px;
+    max-height: 560px;
+    overflow: scroll;
+  }
+
+  .images-data {
+    max-width: 151px;
+    max-height: 127px;
+  }
+
+  .images-data > img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}

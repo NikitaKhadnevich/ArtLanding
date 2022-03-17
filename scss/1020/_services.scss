@@ -1,0 +1,88 @@
+$ServHeaderFont-color: #666d89;
+$ServDiscribeFont-color: #767e9e;
+$ServBaseBackground-color: #f2f2f2;
+$ServMain-border: 6px #ffffff solid;
+
+.main__services {
+  height: 100%;
+  background-color: $ServBaseBackground-color;
+  border-bottom: $ServMain-border;
+}
+
+.services {
+  margin: 0 40px;
+  margin-top: 58px;
+  margin-bottom: 46px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.services-items {
+  font-family: "Lato";
+}
+
+.heading {
+  color: $ServHeaderFont-color;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 36px;
+}
+
+.description {
+  color: $ServDiscribeFont-color;
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: 300; // ! weight в макете не соответствует весу шрифтов в google fonts
+  line-height: 31px;
+  letter-spacing: 0.18px;
+}
+
+.services-items__advantage {
+  margin-top: 46px;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.advBlock {
+  margin-top: 0px;
+  display: flex;
+  width: 100%;
+  min-height: 104px;
+}
+
+.advBlock__img {
+  width: 60px;
+  align-self: flex-start;
+}
+
+.advBlock__info {
+  height: auto;
+  max-width: 220px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  text-align: justify;
+  color: $ServHeaderFont-color;
+}
+
+.text__advHeader {
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: -0.1px;
+}
+
+.text__advAbout {
+  margin-top: 11px;
+  font-size: 12px;
+  font-weight: "regular";
+  line-height: 22px;
+}

@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px) {
+  .slider-item {
+    min-height: 446px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+  }
+
+  .slider-item__arrow-right {
+    margin-right: -2px;
+  }
+
+  .slider-item__arrow-left,
+  .slider-item__arrow-right {
+    padding-top: 7px;
+  }
+
+  .slider-item__slide > img {
+    max-width: 100%;
+    max-height: 365px;
+    margin: auto;
+    padding-bottom: 5px;
+  }
+}

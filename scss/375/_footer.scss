@@ -1,0 +1,19 @@
+$FootHeaderFont-color: #666d89;
+$FootBaseBackground-color: #2d303a;
+$Footer-border: 6px #323746 solid;
+
+@media screen and (max-width: 375px) {
+  .footer {
+    background-color: $FootBaseBackground-color;
+    height: 76px;
+    width: 100%;
+  }
+
+  .footer__wrapper {
+    justify-content: center;
+  }
+
+  .footerInfo {
+    display: none;
+  }
+}

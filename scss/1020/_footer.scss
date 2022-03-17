@@ -1,0 +1,56 @@
+$FootHeaderFont-color: #666d89;
+$FootBaseBackground-color: #2d303a;
+$Footer-border: 6px #323746 solid;
+
+.footer {
+  background-color: $FootBaseBackground-color;
+  height: 76px;
+  width: 100%;
+}
+
+.footer__wrapper {
+  height: 100%;
+  margin: 0 42px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerInfo {
+  display: flex;
+  font-family: "Lato";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  color: $FootHeaderFont-color;
+  align-items: center;
+  margin: 2px 0px 0px -2px;
+}
+
+.footerSocial {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  width: 152px;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+.social img {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+.social img:hover {
+  transition: 0.3s;
+  background-color: $font-color;
+  border-radius: 20px;
+}
